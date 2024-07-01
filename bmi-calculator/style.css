@@ -1,0 +1,42 @@
+body{
+    background-color: rosybrown;
+}
+.container{
+    background-color: cornsilk;
+    width: 50vw;
+    border-radius: 5px;
+    margin: 10px auto;
+
+}
+.heading{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: lighter;
+    text-align: center;
+    padding-top: 10px;
+}
+form{
+    padding: 2rem;
+}
+button{
+    background-color: cornflowerblue;
+    color: white;
+    font-size: 20px;
+    padding: 10px 50px;
+    border: none;
+    border-radius: 5px;
+}
+button:hover{
+    cursor: pointer;
+    background-color: royalblue;
+}
+#result{
+    font-size: 24px;
+    margin: 1em auto;
+}
+#weight-error{
+    padding-bottom: 1em;
+}
+.error-display{
+    color: red;
+    font-family: monospace;
+}
