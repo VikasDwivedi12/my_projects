@@ -1,0 +1,50 @@
+html{
+    height: 100%;
+}
+body{
+    height: 100%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+    background: url(https://images.unsplash.com/photo-1582302788475-446c368c5ae9?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+}
+button{
+    margin: 2rem;
+    background-color: teal;
+    color: whitesmoke;
+    padding: .5rem 1rem;
+    border: none;
+    box-shadow: 0 0 12px 8px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+button:hover{
+    background-color: darkslategray;
+}
+.modal{
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+.modal__overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.modal__content{
+    background-color: white;
+    padding: 4rem;
+    position: relative;
+    cursor: pointer;
+}
+.modal.open{
+    display: flex;
+}
