@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: antiquewhite;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#passwordInput{
+    width: 25vw;
+    font-size: 16px;
+    padding: .5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    display: block;
+}
+#passwordInput:focus{
+    outline: none;
+}
