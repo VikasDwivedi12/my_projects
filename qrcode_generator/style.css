@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: blanchedalmond;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    background-color: white;
+    width: 50%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+    padding: 2rem;
+}
+h2{
+    text-align: center;
+    padding: 1rem;
+}
+
+#qr-input, #qr-button{
+    display: block;
+    margin-bottom: 10px;
+    font-size: 16px;
+    padding: 16px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+#qr-button{
+    border: none;
+    background-color: greenyellow;
+    color: black;
+}
+
+#qr-button:hover{
+    transition: background-color .3s, color .5s;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+}
+#qr-img{
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+}
