@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Automatic BCC</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .head{
+            background-color: blueviolet;
+            padding: 1rem;
+        }
+        button{
+            padding: 0.5rem 1.5rem;
+            margin: 0.5rem;
+            border-radius: 10px;
+            border: none;
+            color: white;
+        }
+        #start{
+            background-color: green;
+        }
+        #stop{
+            background-color: red;
+        }
+        #start:hover{
+            background-color: darkgreen;
+            cursor: pointer;
+        }
+        #stop:hover{
+            background-color: darkred;
+            cursor: pointer;
+        }
+        .btn-container{
+            display: flex;
+            justify-content: center;
+        }
+        h1{
+            text-align: center;
+            color: white;
+        }
+        .container{
+            width: 100%;
+            height: 83vh;
+        }
+    </style>
+</head>
+<body>
+    <div class="head">
+        <div class="btn-container">
+            <button id="start">Start</button>
+            <button id="stop">Stop</button>
+        </div>
+        <h1>Welcome to the Background color changer.</h1>
+    </div>
+    <div class="container">
+        
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
